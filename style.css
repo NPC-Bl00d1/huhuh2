@@ -1,0 +1,31 @@
+body {
+
+    background-color:#434357;
+    
+    
+    }
+    
+    h4,p,label,h5,span{
+    color:white;
+    
+    }
+    
+    
+    button{
+    
+    background-color:#7f7e91;
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    font-size:24;
+    
+    }
+    
+    
+    #webcam{
+    
+    border:3px dashed white;
+    height:200px;
+    width:300px;
+    
+    }

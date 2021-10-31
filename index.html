@@ -1,0 +1,64 @@
+ 
+<html>
+    <head>
+      <title>Image recognition</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+     <link rel="stylesheet" href="style.css">
+    
+    </head>
+  
+    <body>
+    <div class="container">
+      
+      <center>
+  
+        <br><br>
+        <h1 class="btn btn-default" style="width:1000px; height:60px; font-size: 28px;">Image recognition</h1>
+        <p style="font-size: 22px;">Model is trained to identify the following people: </p>
+  
+ 
+  <h5>Me</h5>
+  <hr>
+  <h5>Sister</h5>
+  <hr>
+  <h5>dad</h5>
+  <hr>
+  <h5>mom</h5>
+  <hr>
+  
+  
+  
+        <label>Webcam View - </label>
+        <div id="webcam"></div>
+        <br><br>
+        <div id="outcome"></div>
+        <br><br>
+  <button id="takephoto" onclick="takephotobutfunction()">Take Photo</button>
+        <br><br>
+  <button id="analyse" onclick="analysebutfunction()">Analyse Photo</button>
+        <br><br>
+  
+        <p style="font-size: 22px;">Object : <span id="oject">It's grape juice, my drink of choice - Diluc</span> </p>
+        <p style="font-size: 22px;">Accuracy : <span id="accuracy">I can't believe some people actually drink grape juice - Kaeya</span> </p>
+  
+        <br>
+        <br>
+        <br>
+        
+      </center>
+  
+    </div>
+  <script src="main.js"></script>
+  
+  
+  
+    </body>
+  </html>
+  
+  
