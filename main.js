@@ -36,3 +36,32 @@ Webcam.set({
     console.log("yeah the model loaded, yey.");
     
     }
+
+
+    function analysebutfunction(){
+
+        image = document.getElementById("photo");
+        
+        classifier.classify(image, gotResult);
+        
+        }
+        
+        
+        function gotResult(error, results){
+        
+        if(error){
+        
+        console.error(error);
+        
+        }
+        else{
+        
+        console.log("It worked uwu owo!!!");
+        console.log(results);
+        
+        document.getElementById("oject").innerHTML = results[0].label;
+        document.getElementById("accuracy").innerHTML = results[0].confidence.toFixed(2);
+        
+        }
+        
+        }
